@@ -1,0 +1,90 @@
+.skills {
+  background: $color-bg1;
+  height: 32rem; 
+}
+
+.skills h1 {
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+.skills__container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  
+}
+.skills__left  {
+  margin-right: 4rem;
+}
+
+.skills__left p {
+  margin: 1rem 0 3rem;
+}
+.skills__right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+.skill {
+  background: $color-bg2;
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: $transition;
+}
+.skill:hover {
+  box-shadow: 0 3rem 3rem  rgba(0, 0, 0 , 0.3);
+  z-index: 1;
+
+}
+.skill:nth-child(1)  .skill__icon{
+  background: $color-success;
+}
+.skill:nth-child(2)  .skill__icon{
+  background: $color-danger;
+}
+.skill:nth-child(3)  .skill__icon{
+  background: $color-success;
+}
+.skill:nth-child(4)  .skill__icon{
+  background: $color-warning;
+}
+.skill:nth-child(5)  .skill__icon{
+  background: $color-success;
+}
+.skill:nth-child(6)  .skill__icon{
+  background: $color-warning;
+}
+
+
+
+.skill__icon{
+  border-bottom: 1rem;
+}
+
+.skill h5 {
+  margin: 2rem 0 1rem;
+}
+.skill p {
+  font-size: 0.85rem;
+}
+
+
+@media screen  and (max-width: 600px){
+.skils{
+  flex: 0 0 50%;
+  width: $container-wigth-sm;
+  margin: 1rem 0 -4rem ;
+  
+}
+.skils__container{
+  width: 100%;
+ 
+}
+.skills__right{
+  margin-right: -10rem;
+  
+}
+.skills__left{
+  margin-left: 2rem;
+}
+
+}

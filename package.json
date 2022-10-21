@@ -1,0 +1,16 @@
+{
+  "name": "challeng1__portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":  "sass src/scss/index.scss public/index.css && node index.js",
+    "watch": "sass src/scss/index.scss public/index.css --watch"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'header';
+@import 'btn';
+@import 'nav';
+@import 'footer';
+@import 'projects';
+@import 'skills';
+@import 'contact';
+
+*{
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
+  box-sizing: border-box;
+  transition: all .2s linear;
+}
+html {
+
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body{
+font-family: $font-family;
+  line-height: 1.7;
+  color: $color-white;
+  background: $color-bg;
+  
+}
+p{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+

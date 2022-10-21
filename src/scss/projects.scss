@@ -1,0 +1,52 @@
+.container{
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+
+}
+article{
+
+  background:$color-bg1;
+  text-align: center;
+  border: 1px solid transparent;
+  
+
+img{
+  width: 90%;
+  height: 40%;
+  align-items: center;
+}
+article:hover{
+  background: transparent;
+  border-color: $color-primary;
+
+}
+
+
+  p {
+  margin: 1.2rem 0 2rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+.button{
+  padding: 1rem;
+}
+a {
+  margin: 2rem;
+ padding-top: -1rem;
+ 
+}
+}
+
+@media screen  and (max-width: 600px){
+   .projects__container{
+    flex: 0 0 50%;
+    width: $container-wigth-sm;
+   
+   
+    
+    
+  }
+ 
+}

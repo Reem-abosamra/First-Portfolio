@@ -1,0 +1,29 @@
+section#contact 
+ .contact__container 
+   .contact__left 
+     h2 Let's Talk 
+     p Thanks for your interest. There are so many things worth exploring and groundbreaking connections to be made.What is possible with digital technology? How does it shape our daily routines? Does it help us live good and healthy lives together and are we able to handle it?
+   .contact__right
+     form(action="#" method="post" id="RegisterForm")
+      label(class="hide-label"  for='Name') Your Name
+      input(type="text" name="Name" placeholder="Your Name" id='Firstname'  required data-required-message='Vorname: Bitte füllen Sie dieses Feld aus!')
+      label(class="hide-label"  for='Email') Your Email
+      input(type="email" name="email-address" id='Email' placeholder="E-Mail *" required data-required-message='E-Mailadresse: Bitte füllen Sie dieses Feld aus!')  
+      label(for='Message' class='hide-label') Message
+      textarea(name="message" id='Message' rows="6" placeholder="Message")   
+      button(type="submit" class='btn' aria-label='jetzt für den Newsletter registrieren' ) Send
+       i.uil.uil-arrow-right
+ .dialog-contents( aria-live="polite" role="dialog")#Dialog
+   .dialog-content
+     ul#formData 
+   .contact__socials   
+     ul(role='tree')  
+       li(role='treeitem') 
+         a(href="https//instagram.com" aria-label='instagram')
+          i.uil.uil-instagram
+       li(role='treeitem') 
+         a(href="https//githup.com" aria-label='githup')
+          i.uil.uil-github-alt  
+       li(role='treeitem') 
+         a(href="https//linkedin.com" aria-label='linkedin')
+           i.uil.uil-linkedin-alt    

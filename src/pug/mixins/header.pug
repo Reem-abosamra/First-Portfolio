@@ -1,0 +1,38 @@
+body
+  nav.nav__container
+    h1.logo AR
+    ul.nav__menu(role='tree')
+     li
+      a(href='#home' aria-label='home') Home
+     li(role='treeitem') 
+         a(href='#skills' aria-label='skills') Skills 
+     li(role='treeitem')
+         a(href='#projects' aria-label='projects') Projects
+     li(role='treeitem')
+         a(href='#contact' aria-label='contact') Contact
+     li(role='treeitem')
+     button.btn 
+         a.btn-primary(href='./images/Abosamra.pdf' download='' aria-label='download') Download CV
+          i.uil.uil-download-alt
+    
+  header
+   .header__container#home
+     .left
+       img.my-img(src='./images/reem .svg' alt='')
+       .about-me
+         p  Hello!  I'm
+         h1  REEM  ABOSAMRA
+         p a Web Developer / Designer
+         button.button.btn-primary.btn-lg(href='skills.html') More about me
+   .right
+       ul(role='tree')  
+        li(role='treeitem') 
+         a(href="https://www.instagram.com/?hl=en" aria-label='instagram')
+          i.uil.uil-instagram
+        li(role='treeitem') 
+          a(href="https://github.com/signup?user_email=&source=form-home-signup" aria-label='githup')
+           i.uil.uil-github-alt
+        li(role='treeitem') 
+          a(href="https://www.linkedin.com/feed/" aria-label='linkedin' )
+           i.uil.uil-linkedin-alt 
+       
